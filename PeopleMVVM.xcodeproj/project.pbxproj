@@ -58,9 +58,9 @@
 				8B4ACEC42B4A9986006DE83E /* PeopleMVVMApp.swift */,
 				8B4ACED22B4A9B0E006DE83E /* PeopleView.swift */,
 				8B4ACED62B4A9C78006DE83E /* PersonModel.swift */,
+				8B4ACED82B4A9ED6006DE83E /* PersonViewModel.swift */,
 				8B4ACEC82B4A9989006DE83E /* Assets.xcassets */,
 				8B4ACECA2B4A9989006DE83E /* Preview Content */,
-				8B4ACED82B4A9ED6006DE83E /* PersonViewModel.swift */,
 			);
 			path = PeopleMVVM;
 			sourceTree = "<group>";
