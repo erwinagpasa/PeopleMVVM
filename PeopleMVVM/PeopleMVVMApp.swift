@@ -2,7 +2,7 @@
 //  PeopleMVVMApp.swift
 //  PeopleMVVM
 //
-//  Created by Developer on 07/01/2024.
+//  Created by erwinagpasa on 07/01/2024.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct PeopleMVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          PeopleView()
         }
     }
 }
