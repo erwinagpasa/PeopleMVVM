@@ -1,1 +1,3 @@
 # PeopleMVVM
+
+![ScreenShot](scr.png)
