@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct PeopleView: View {
+  
+  @ObservedObject  var viewModel = PersonViewModel()
+  
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      ForEach(viewModel.people){ person in
+
+        HStack {
+          Text(person.name)
+            .font(.title)
+            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+          Spacer()
+          
+          VStack(alignment: .trailing){
+            Text(person.phoneNumber)
+            Text(person.email)
+          }
+      }
+
+      }
     }
 }
 
